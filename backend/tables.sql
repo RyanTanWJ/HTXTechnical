@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE transcriptions USING fts5(uuid, audio_file_name, transcribed_text, created_timestamp);
